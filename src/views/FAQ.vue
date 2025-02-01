@@ -1,5 +1,5 @@
 <template>
-  <div>
+  <div class="max-w-3xl mx-auto p-4">
     <div class="text-2xl mb-4">FAQ</div>
     <div class="space-y-6">
       <div>

@@ -3,3 +3,8 @@
 .container {
   max-width: 1200px;
 }
+
+.link {
+  @apply text-blue-500;
+  @apply underline;
+}

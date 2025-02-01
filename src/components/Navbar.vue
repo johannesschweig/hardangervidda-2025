@@ -1,5 +1,5 @@
 <template>
-  <header class="bg-indigo-100">
+  <header class="bg-slate-100">
     <div class="container mx-auto p-4">
       <nav class="flex items-center justify-between">
         <div class="text-xl font-bold">Hardangervidda 2025</div>
@@ -27,6 +27,25 @@
           </div>
         </div>
       </nav>
+    </div>
+    <div v-if="isMenuOpen" class="fixed inset-0 bg-slate-100 z-50 flex flex-col items-center justify-center">
+      <button @click="toggleMenu" class="absolute top-4 right-4 focus:outline-none">
+        <svg class="w-8 h-8" fill="none" stroke="currentColor" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg">
+          <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M6 18L18 6M6 6l12 12"></path>
+        </svg>
+      </button>
+      <RouterLink @click="toggleMenu" to="/planning" class="text-2xl mb-4" active-class="font-bold">
+        Reiseplanung
+      </RouterLink>
+      <RouterLink @click="toggleMenu" to="/gear" class="text-2xl mb-4" active-class="font-bold">
+        Packliste
+      </RouterLink>
+      <RouterLink @click="toggleMenu" to="/impressions" class="text-2xl mb-4" active-class="font-bold">
+        Impressionen
+      </RouterLink>
+      <RouterLink @click="toggleMenu" to="/faq" class="text-2xl" active-class="font-bold">
+        FAQ
+      </RouterLink>
     </div>
   </header>
 </template>
