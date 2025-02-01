@@ -62,20 +62,45 @@
     <div class="mb-6">
       <h2 class="text-xl font-semibold mb-2">Kosten</h2>
       <ul class="list-disc list-inside">
-        <li>Flug: 250 EUR</li>
-        <li>Zug Flughafen nach Oslo HBF: 130 NOK</li>
-        <li>Bus hin: 60 EUR</li>
-        <li>Zug zurück: 300 NOK</li>
-        <li>Zug Oslo HBF zum Flughafen: 130 NOK</li>
-        <li>DNT Mitgliedschaft: 810 NOK</li>
-        <li>Übernachtung (Schlafsaal) mit Vollpension: 990 NOK x (7+2)</li>
-        <li>310 EUR + 10020 NOK = 1160 EUR</li>
+        <li v-for="(cost, index) in costs" :key="index">
+          {{ cost.description }}: {{ cost.amount }} {{ cost.currency }}
+        </li>
       </ul>
+      <div class="mt-4">
+        <p>Gesamtkosten: {{ totalCostEUR.toFixed(2) }} EUR</p>
+      </div>
     </div>
 
   </div>
 </template>
 
 <script setup>
+import { ref, computed } from 'vue'
 import tourImage from '@/assets/planning/tour.png'
+
+const costs = ref([
+  { description: 'Flug', amount: 250, currency: 'EUR' },
+  { description: 'Zug Flughafen nach Oslo HBF', amount: 130, currency: 'NOK' },
+  { description: 'Bus hin', amount: 60, currency: 'EUR' },
+  { description: 'Zug zurück', amount: 300, currency: 'NOK' },
+  { description: 'Zug Oslo HBF zum Flughafen', amount: 130, currency: 'NOK' },
+  { description: 'DNT Mitgliedschaft', amount: 810, currency: 'NOK' },
+  { description: 'Übernachtung (Schlafsaal) mit Vollpension', amount: 990 * 9, currency: 'NOK' }
+])
+
+const totalEUR = computed(() => {
+  return costs.value
+    .filter(cost => cost.currency === 'EUR')
+    .reduce((total, cost) => total + cost.amount, 0)
+})
+
+const totalNOK = computed(() => {
+  return costs.value
+    .filter(cost => cost.currency === 'NOK')
+    .reduce((total, cost) => total + cost.amount, 0)
+})
+
+const totalCostEUR = computed(() => {
+  return totalEUR.value + (totalNOK.value / 11.74)
+})
 </script>
