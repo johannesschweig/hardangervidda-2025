@@ -1,6 +1,6 @@
 import { createRouter, createWebHistory } from 'vue-router'
 import Stages from '@/views/Stages.vue'
-import Luggage from '@/views/Luggage.vue'
+import Gear from '@/views/Gear.vue'
 import Impressions from '@/views/Impressions.vue'
 import FAQ from '@/views/FAQ.vue'
 
@@ -16,8 +16,8 @@ const router = createRouter({
       component: Stages,
     },
     {
-      path: '/luggage',
-      component: Luggage,
+      path: '/gear',
+      component: Gear,
     },
     {
       path: '/impressions',
