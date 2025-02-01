@@ -1,7 +1,17 @@
 <template>
   <div class="">
     <div class="text-2xl mb-4">Reiseplanung</div>
-    
+
+    <div class="mb-6">
+      <h2 class="text-xl font-semibold mb-2">Todos</h2>
+      <div><input type="checkbox" disabled class="mr-2">Flug buchen (Februar)</input></div>
+      <div><input type="checkbox" disabled class="mr-2">Bus Hinweg buchen (max. 85 Tage im Voraus)</input></div>
+      <div><input type="checkbox" disabled class="mr-2">Zug Rückweg buchen (max. 90-120 Tage im Voraus)</input></div>
+      <div><input type="checkbox" disabled class="mr-2">Mal schauen, ob die Wanderschuhe noch leben (Mai)</input></div>
+      <div><input type="checkbox" disabled class="mr-2">Hütten reservieren (?)</input></div>
+      <div><input type="checkbox" disabled class="mr-2">Packen</input></div>
+    </div>
+
     <div class="mb-6">
       <h2 class="text-xl font-semibold mb-2">Anreise</h2>
       <ul class="list-disc list-inside">
@@ -34,8 +44,7 @@
         <li>Etappe 5: Hedlo to Liseth - 21km</li>
         <li>Etappe 6: Liseth to Rembesdalsseter - 22km (Selbstversorgerhütte)</li>
         <li>Etappe 7: Rembesdalsseter to Finse - 24km</li>
-        <li>Tag 8: Chillen. Irgendwo zwischen Tag 3 und 6 nehmen wir uns eine Auszeit und chillen an einer Hütte.</li>
-        <li>Tag 9: Übernachtung in Finse</li>
+        <li>+1 Chilltag: Irgendwo zwischen Tag 3 und 6 nehmen wir uns eine Auszeit und chillen an einer Hütte.</li>
         <li>Tag 10: Abreise</li>
       </ul>
       <div><a href="https://www.komoot.com/de-de/tour/2033931948" class="link">Link zur Tour auf Komoot</a></div>
