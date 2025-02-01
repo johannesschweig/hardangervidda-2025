@@ -1,5 +1,5 @@
 <template>
-  <div class="p-4">
+  <div class="">
     <div class="text-2xl mb-4">Reiseplanung</div>
     
     <div class="mb-6">
@@ -40,15 +40,15 @@
       <h2 class="text-xl font-semibold mb-2">Etappen</h2>
       <ul class="list-disc list-inside">
         <li>Tag 1: Anreise, Übernachtung in Haukeliseter</li>
-        <li>Etappe 1: Haukeliseter to Hellevasbu - 22km</li>
+        <li>Etappe 1: Haukeliseter to Hellevasbu - 22km (Selbstversorgerhütte)</li>
         <li>Etappe 2: Hellevasbu to Litlos - 18km</li>
-        <li>Etappe 3: Litlos to Hadlaskard - 20km</li>
+        <li>Etappe 3: Litlos to Hadlaskard - 20km (Selbstversorgerhütte)</li>
         <li>Etappe 4: Hadlaskard to Hedlo - 10km</li>
         <li>Etappe 5: Hedlo to Liseth - 21km</li>
-        <li>Etappe 6: Liseth to Rembesdalsseter - 22km</li>
+        <li>Etappe 6: Liseth to Rembesdalsseter - 22km (Selbstversorgerhütte)</li>
         <li>Etappe 7: Rembesdalsseter to Finse - 24km</li>
-        <li>Tag 8: Übernachtung in Finse</li>
-        <li>Tag 9: Chillen</li>
+        <li>Tag 8: Chillen. Irgendwo zwischen Tag 3 und 6 nehmen wir uns eine Auszeit und chillen an einer Hütte.</li>
+        <li>Tag 9: Übernachtung in Finse</li>
         <li>Tag 10: Abreise</li>
       </ul>
     </div>

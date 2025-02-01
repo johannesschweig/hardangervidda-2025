@@ -1,6 +1,7 @@
 <template>
   <div>
     <div class="text-2xl mb-4">Impressionen</div>
+    <div class="mb-4">Einige Bilder aus August 2024</div>
     <div class="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 gap-4">
       <img v-for="(image, index) in images" :key="index" :src="image" class="w-full h-auto rounded-lg shadow-md" />
     </div>

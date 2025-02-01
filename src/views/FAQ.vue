@@ -4,11 +4,15 @@
     <div class="space-y-6">
       <div>
         <h3 class="font-semibold">Wie ist das Wetter im August?</h3>
-        <p>Das Wetter in der Hardangervidda im August ist wechselhaft. Tagsüber liegen die Temperaturen zwischen 5 und 15 Grad, nachts kann es bis auf 0 Grad abkühlen. Regen ist sehr wahrscheinlich, und auch Wind kann stark sein. Daher sind wind- und regenfeste Kleidung essentiell. Nasse Kleidung kann in den Hütten in warmen Räumen getrocknet werden.</p>
+        <p>Das Wetter in der Hardangervidda im August ist wechselhaft. Tagsüber liegen die Temperaturen zwischen 5 und 15 Grad, nachts kann es bis auf 0 Grad abkühlen. Regen ist sehr wahrscheinlich, und auch Wind kann stark sein. Daher sind wind- und regenfeste Kleidung essentiell. Nasse Kleidung kann in den Hütten in den Wärmekammern getrocknet werden.</p>
       </div>
       <div>
         <h3 class="font-semibold">Wie viel kostet der Ausflug?</h3>
         <p>Ca. 1.200 Euro für 9 Tage. Darin enthalten sind alle Kosten für Anreise (Flug, Bahn, Bus), Unterkünfte und Verpflegung. Zusätzliche Ausgaben, z. B. für Snacks oder Getränke, kommen ggf. hinzu. In Norwegen kann fast überall mit Karte gezahlt werden.</p>
+      </div>
+      <div>
+        <h3 class="font-semibold">Wie bezahlt man in Norwegen?</h3>
+        <p>Mit Debitkarte oder Kreditkarte. 12 NOK (Norwegische Kronen) entsprechen ungefähr 1 Euro.</p>
       </div>
       <div>
         <h3 class="font-semibold">Kann ich unterwegs aussteigen oder was passiert bei einem Abbruch?</h3>
@@ -28,6 +32,7 @@
       </div>
       <div>
         <h3 class="font-semibold">Wie sind die Unterkünfte organisiert?</h3>
+        <p>Die Hütten sind hauptsächlich bewirtschaftet. Unbewirtschaftete Hütten (Selbstversorgerhütten) haben in der Sommerzeit oft auch jemand, der die Gäste organisiert. Auf Selbstversorgerhütten holt man sich alles selbst und bezahlt per Bankeinzug oder App.</p>
         <p>Es gibt verschiedene Unterkunftsarten: Schlafsäle oder Einzelzimmer in größeren Hütten. In den Schlafsälen benötigt man einen Hüttenschlafsack (siehe Packliste). Es gibt Bettwäsche, warme Duschen, Trockenräume für Kleidung und Strom zum Laden von Handys (Steckdosen können begrenzt sein).</p>
       </div>
       <div>
@@ -37,6 +42,14 @@
       <div>
         <h3 class="font-semibold">Gibt es Strom in den Hütten?</h3>
         <p>Ja, aber Steckdosen sind begrenzt und manchmal schwach. Eine Powerbank kann hilfreich sein.</p>
+      </div>
+      <div>
+        <h3 class="font-semibold">Sprechen die Norweger Englisch?</h3>
+        <p>Ja, fast alle. Ise spricht auch Norwegisch und hilft uns im Notfall aus.</p>
+      </div>
+      <div>
+        <h3 class="font-semibold">Wird es voll sein auf den Wanderwegen?</h3>
+        <p>Beim letzten Mal sind wir kaum anderen Wanderern auf den Wegen begegnet. In den Hütten trifft man dann aber meist welche.</p>
       </div>
     </div>
   </div>

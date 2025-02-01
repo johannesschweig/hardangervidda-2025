@@ -1,5 +1,5 @@
 <template>
-  <header class="bg-white shadow-md">
+  <header class="bg-indigo-100">
     <div class="container mx-auto p-4">
       <nav class="flex items-center justify-between">
         <div class="text-xl font-bold">Hardangervidda 2025</div>
@@ -42,8 +42,3 @@ const toggleMenu = () => {
 }
 </script>
 
-<style scoped>
-.container {
-  max-width: 1200px;
-}
-</style>
