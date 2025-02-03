@@ -35,13 +35,13 @@
       <iframe src="https://www.komoot.com/tour/2033931948/embed?profile=1" width="100%" height="700" frameborder="0" scrolling="no"></iframe>
       <ul class="list-disc list-inside">
         <li>Tag 1: Anreise, Übernachtung in Haukeliseter</li>
-        <li>Etappe 1: Haukeliseter to Hellevasbu - 22km (Selbstversorgerhütte)</li>
-        <li>Etappe 2: Hellevasbu to Litlos - 18km</li>
-        <li>Etappe 3: Litlos to Hadlaskard - 20km (Selbstversorgerhütte)</li>
-        <li>Etappe 4: Hadlaskard to Hedlo - 10km</li>
-        <li>Etappe 5: Hedlo to Liseth - 21km</li>
-        <li>Etappe 6: Liseth to Rembesdalsseter - 22km (Selbstversorgerhütte)</li>
-        <li>Etappe 7: Rembesdalsseter to Finse - 24km</li>
+        <li>Etappe 1: Haukeliseter to Hellevasbu - 21.5 km (Selbstversorgerhütte)</li>
+        <li>Etappe 2: Hellevasbu to Litlos - 16.5 km</li>
+        <li>Etappe 3: Litlos to Hadlaskard - 20.6 km (Selbstversorgerhütte)</li>
+        <li>Etappe 4: Hadlaskard to Hedlo - 9 km</li>
+        <li>Etappe 5: Hedlo to Liseth - 16.2 km</li>
+        <li>Etappe 6: Liseth to Rembesdalsseter - 19 km (Selbstversorgerhütte)</li>
+        <li>Etappe 7: Rembesdalsseter to Finse - 20.8 km</li>
         <li>+1 Chilltag: Irgendwo zwischen Tag 3 und 6 nehmen wir uns eine Auszeit und chillen an einer Hütte.</li>
         <li>Tag 10: Abreise</li>
       </ul>
