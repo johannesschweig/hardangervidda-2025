@@ -32,23 +32,25 @@
 
     <div class="mb-6">
       <h2 class="text-xl font-semibold mb-2">Etappen</h2>
-      <a href="https://www.komoot.com/de-de/tour/2033931948">
-        <img :src="tourImage" alt="Tour Image" class="mb-4">
-      </a>
+      <iframe src="https://www.komoot.com/tour/2033931948/embed?profile=1" width="100%" height="700" frameborder="0" scrolling="no"></iframe>
       <ul class="list-disc list-inside">
         <li>Tag 1: Anreise, Übernachtung in Haukeliseter</li>
-        <li>Etappe 1: Haukeliseter to Hellevasbu - 22km (Selbstversorgerhütte)</li>
-        <li>Etappe 2: Hellevasbu to Litlos - 18km</li>
-        <li>Etappe 3: Litlos to Hadlaskard - 20km (Selbstversorgerhütte)</li>
-        <li>Etappe 4: Hadlaskard to Hedlo - 10km</li>
-        <li>Etappe 5: Hedlo to Liseth - 21km</li>
-        <li>Etappe 6: Liseth to Rembesdalsseter - 22km (Selbstversorgerhütte)</li>
-        <li>Etappe 7: Rembesdalsseter to Finse - 24km</li>
+        <li>Etappe 1: Haukeliseter to Hellevasbu - 21.5 km (Selbstversorgerhütte)</li>
+        <li>Etappe 2: Hellevasbu to Litlos - 16.5 km</li>
+        <li>Etappe 3: Litlos to Hadlaskard - 20.6 km (Selbstversorgerhütte)</li>
+        <li>Etappe 4: Hadlaskard to Hedlo - 9 km</li>
+        <li>Etappe 5: Hedlo to Liseth - 16.2 km</li>
+        <li>Etappe 6: Liseth to Rembesdalsseter - 19 km (Selbstversorgerhütte)</li>
+        <li>Etappe 7: Rembesdalsseter to Finse - 20.8 km</li>
         <li>+1 Chilltag: Irgendwo zwischen Tag 3 und 6 nehmen wir uns eine Auszeit und chillen an einer Hütte.</li>
         <li>Tag 10: Abreise</li>
       </ul>
       <div><a href="https://www.komoot.com/de-de/tour/2033931948" class="link">Link zur Tour auf Komoot</a></div>
       <div><a href="https://ut.no/hytte/10660/haukeliseter-fjellstue/kart#8.93/60.1864/7.3856" class="link">Hütte Haukelister auf ut.no</a></div>
+
+      <br/>
+      <div><a href="https://www.komoot.com/collection/3281681/-hardangervidda-sued-nord" class="link">Link zu den einzelnen Etappen auf Komoot</a></div>
+      <iframe src="https://www.komoot.com/collection/3281681/embed" width="100%" height="800" frameborder="none" scrolling="no"></iframe>
     </div>
 
     <div class="mb-6">
@@ -86,6 +88,7 @@
 <script setup>
 import { ref, computed } from 'vue'
 import tourImage from '@/assets/planning/tour.png'
+import tourStagesImage from '@/assets/planning/tour-stages.png'
 
 const costs = ref([
   { description: 'Flug', amount: 250, currency: 'EUR' },
