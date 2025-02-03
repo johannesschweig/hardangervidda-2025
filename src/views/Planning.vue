@@ -21,6 +21,7 @@
           </ul>
         </li>
         <li>Zug Oslo Airport - Oslo S (HBF): 30 min</li>
+        <li>DNT Mitgliedschaft abschließen und Schlüssel abholen</li>
         <li>Bus Oslo-Haukeliseter
           <ul class="list-disc list-inside ml-4">
             <li>13:55 → 19:00 (5h 5min)</li>
@@ -87,8 +88,6 @@
 
 <script setup>
 import { ref, computed } from 'vue'
-import tourImage from '@/assets/planning/tour.png'
-import tourStagesImage from '@/assets/planning/tour-stages.png'
 
 const costs = ref([
   { description: 'Flug', amount: 250, currency: 'EUR' },
