@@ -32,9 +32,7 @@
 
     <div class="mb-6">
       <h2 class="text-xl font-semibold mb-2">Etappen</h2>
-      <a href="https://www.komoot.com/de-de/tour/2033931948">
-        <img :src="tourImage" alt="Tour Image" class="mb-4" style="max-height: 40em;">
-      </a>
+      <iframe src="https://www.komoot.com/tour/2033931948/embed?profile=1" width="100%" height="700" frameborder="0" scrolling="no"></iframe>
       <ul class="list-disc list-inside">
         <li>Tag 1: Anreise, Übernachtung in Haukeliseter</li>
         <li>Etappe 1: Haukeliseter to Hellevasbu - 22km (Selbstversorgerhütte)</li>
@@ -52,9 +50,7 @@
 
       <br/>
       <div><a href="https://www.komoot.com/collection/3281681/-hardangervidda-sued-nord" class="link">Link zu den einzelnen Etappen auf Komoot</a></div>
-      <a href="https://www.komoot.com/collection/3281681/-hardangervidda-sued-nord">
-        <img :src="tourStagesImage" alt="Tour Image Stages" class="mb-4" style="max-height: 40em;">
-      </a>
+      <iframe src="https://www.komoot.com/collection/3281681/embed" width="100%" height="800" frameborder="none" scrolling="no"></iframe>
     </div>
 
     <div class="mb-6">
