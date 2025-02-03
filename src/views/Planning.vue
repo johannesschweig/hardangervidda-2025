@@ -33,7 +33,7 @@
     <div class="mb-6">
       <h2 class="text-xl font-semibold mb-2">Etappen</h2>
       <a href="https://www.komoot.com/de-de/tour/2033931948">
-        <img :src="tourImage" alt="Tour Image" class="mb-4">
+        <img :src="tourImage" alt="Tour Image" class="mb-4" style="max-height: 40em;">
       </a>
       <ul class="list-disc list-inside">
         <li>Tag 1: Anreise, Übernachtung in Haukeliseter</li>
@@ -49,6 +49,12 @@
       </ul>
       <div><a href="https://www.komoot.com/de-de/tour/2033931948" class="link">Link zur Tour auf Komoot</a></div>
       <div><a href="https://ut.no/hytte/10660/haukeliseter-fjellstue/kart#8.93/60.1864/7.3856" class="link">Hütte Haukelister auf ut.no</a></div>
+
+      <br/>
+      <div><a href="https://www.komoot.com/collection/3281681/-hardangervidda-sued-nord" class="link">Link zu den einzelnen Etappen auf Komoot</a></div>
+      <a href="https://www.komoot.com/collection/3281681/-hardangervidda-sued-nord">
+        <img :src="tourStagesImage" alt="Tour Image Stages" class="mb-4" style="max-height: 40em;">
+      </a>
     </div>
 
     <div class="mb-6">
@@ -86,6 +92,7 @@
 <script setup>
 import { ref, computed } from 'vue'
 import tourImage from '@/assets/planning/tour.png'
+import tourStagesImage from '@/assets/planning/tour-stages.png'
 
 const costs = ref([
   { description: 'Flug', amount: 250, currency: 'EUR' },
