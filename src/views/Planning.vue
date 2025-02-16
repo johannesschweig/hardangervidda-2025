@@ -5,15 +5,15 @@
     <div class="mb-6">
       <h2 class="text-xl font-semibold mb-2">Todos</h2>
       <div><input type="checkbox" disabled class="mr-2">Flug buchen (Februar)</input></div>
-      <div><input type="checkbox" disabled class="mr-2">Bus Hinweg buchen (max. 85 Tage im Voraus)</input></div>
-      <div><input type="checkbox" disabled class="mr-2">Zug Rückweg buchen (max. 90-120 Tage im Voraus)</input></div>
+      <div><input type="checkbox" disabled class="mr-2">Bus Hinweg buchen (ab Mitte Mai)</input></div>
+      <div><input type="checkbox" disabled class="mr-2">Zug Rückweg buchen (ab Mitte April-Mai)</input></div>
       <div><input type="checkbox" disabled class="mr-2">Mal schauen, ob die Wanderschuhe noch leben (Mai)</input></div>
       <div><input type="checkbox" disabled class="mr-2">Hütten reservieren (?)</input></div>
       <div><input type="checkbox" disabled class="mr-2">Packen</input></div>
     </div>
 
     <div class="mb-6">
-      <h2 class="text-xl font-semibold mb-2">Anreise</h2>
+      <h2 class="text-xl font-semibold mb-2">Anreise (06. Aug)</h2>
       <ul class="list-disc list-inside">
         <li>Flug Berlin-Oslo mit Norwegian Airlines
           <ul class="list-disc list-inside ml-4">
@@ -55,7 +55,7 @@
     </div>
 
     <div class="mb-6">
-      <h2 class="text-xl font-semibold mb-2">Abreise</h2>
+      <h2 class="text-xl font-semibold mb-2">Abreise (15. Aug)</h2>
       <ul class="list-disc list-inside">
         <li>Zug Finse - Oslo
           <ul class="list-disc list-inside ml-4">
@@ -65,7 +65,7 @@
         </li>
         <li>Flug Oslo - Berlin
           <ul class="list-disc list-inside ml-4">
-            <li>20:00 - 21:35</li>
+            <li>18:30 - 20:05</li>
           </ul>
         </li>
       </ul>
