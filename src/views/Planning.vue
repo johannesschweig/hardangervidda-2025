@@ -4,7 +4,7 @@
 
     <div class="mb-6">
       <h2 class="text-xl font-semibold mb-2">Todos</h2>
-      <div><input type="checkbox" disabled class="mr-2">Flug buchen (Februar)</input></div>
+      <div><input type="checkbox" checked disabled class="mr-2">Flug buchen (Februar)</input></div>
       <div><input type="checkbox" disabled class="mr-2">Bus Hinweg buchen (ab Mitte Mai)</input></div>
       <div><input type="checkbox" disabled class="mr-2">Zug Rückweg buchen (ab Mitte April-Mai)</input></div>
       <div><input type="checkbox" disabled class="mr-2">Mal schauen, ob die Wanderschuhe noch leben (Mai)</input></div>
@@ -25,7 +25,7 @@
         <li>Bus Oslo-Haukeliseter
           <ul class="list-disc list-inside ml-4">
             <li>13:55 → 19:00 (5h 5min)</li>
-            <li><a href="https://www.nor-way.no/en/travelplanner/#/utreise?originId=18650BA5-D24F-4B0D-A98D-300D0E76ACAA&originName=Oslo%20bussterminal&destinationId=CB135C46-AD44-4E9A-86CD-3A037FCA6002&destinationName=Haukeliseter&departureDate=2025-03-07&qty_3d2fe8d3-c3c9-44b8-917c-725d859376ba=1" class="link">Link zur Buchung</a></li>
+            <li><a href="https://www.nor-way.no/en/" class="link">Link zur Buchung</a></li>
           </ul>
         </li>
       </ul>
@@ -59,8 +59,9 @@
       <ul class="list-disc list-inside">
         <li>Zug Finse - Oslo
           <ul class="list-disc list-inside ml-4">
-            <li>10:30 - 15:00</li>
-            <li><a href="https://www.vy.no/en/see-travel-suggestions?from=Finse+stasjon&to=Oslo+S&fromDateTime=2025-04-01T08:52:26.000Z&fromExternalId=NSR:NSR:StopPlace:200&toExternalId=NSR:NSR:StopPlace:59872,RESROBOT:760000100&passengers=W3siaWQiOjAsImFnZSI6bnVsbCwiZGlzY291bnRzIjpbXSwiY2F0ZWdvcnkiOiJBZHVsdCIsIm5hbWUiOiJBZHVsdCIsImludGVycmFpbENvZGUiOm51bGx9XQ&addons=W3sidHlwZSI6ImJpY3ljbGUiLCJudW1iZXJUb0J1eSI6MH0seyJ0eXBlIjoibGFyZ2VfYW5pbWFsIiwibnVtYmVyVG9CdXkiOjB9LHsidHlwZSI6InNtYWxsX2FuaW1hbCIsIm51bWJlclRvQnV5IjowfSx7InR5cGUiOiJzdHJvbGxlciIsIm51bWJlclRvQnV5IjowfSx7InR5cGUiOiJ3aGVlbGNoYWlyIiwibnVtYmVyVG9CdXkiOjB9XQ&fromPosition=60.601772,7.503823&toPosition=59.910357,10.753051" class="link">Link zur Buchung</a></li>
+            <li class="font-semibold">08:38 - 13:05</li>
+            <li class="opacity-50">10:30 - 15:00 (schon relativ teuer)</li>
+            <li><a href="https://www.vy.no/en/" class="link">Link zur Buchung</a></li>
           </ul>
         </li>
         <li>Flug Oslo - Berlin
@@ -90,10 +91,10 @@
 import { ref, computed } from 'vue'
 
 const costs = ref([
-  { description: 'Flug', amount: 250, currency: 'EUR' },
+  { description: 'Flug', amount: 280, currency: 'EUR' },
   { description: 'Zug Flughafen nach Oslo HBF', amount: 130, currency: 'NOK' },
-  { description: 'Bus hin', amount: 60, currency: 'EUR' },
-  { description: 'Zug zurück', amount: 300, currency: 'NOK' },
+  { description: 'Bus hin', amount: 400, currency: 'NOK' },
+  { description: 'Zug zurück', amount: 409, currency: 'NOK' },
   { description: 'Zug Oslo HBF zum Flughafen', amount: 130, currency: 'NOK' },
   { description: 'DNT Mitgliedschaft', amount: 810, currency: 'NOK' },
   { description: 'Übernachtung (Schlafsaal) mit Vollpension', amount: 990 * 9, currency: 'NOK' }
@@ -112,6 +113,6 @@ const totalNOK = computed(() => {
 })
 
 const totalCostEUR = computed(() => {
-  return totalEUR.value + (totalNOK.value / 11.74)
+  return totalEUR.value + (totalNOK.value / 11.50)
 })
 </script>
