@@ -24,6 +24,9 @@ jobs:
       - name: Build project
         run: npm run build
 
+      - name: Add 200.html fallback
+        run: cp dist/index.html dist/200.html
+
       - name: Deploy to Surge
         run: |
           npm install -g surge
