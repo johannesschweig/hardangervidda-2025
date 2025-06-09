@@ -46,7 +46,6 @@
         <li>+1 Chilltag: Irgendwo zwischen Tag 3 und 6 nehmen wir uns eine Auszeit und chillen an einer Hütte.</li>
         <li>Tag 10: Abreise</li>
       </ul>
-      <div><a href="https://www.komoot.com/de-de/tour/2033931948" class="link">Link zur Tour auf Komoot</a></div>
       <div><a href="https://ut.no/hytte/10660/haukeliseter-fjellstue/kart#8.93/60.1864/7.3856" class="link">Hütte Haukelister auf ut.no</a></div>
 
       <br/>
