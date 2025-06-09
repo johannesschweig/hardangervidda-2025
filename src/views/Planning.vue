@@ -5,8 +5,8 @@
     <div class="mb-6">
       <h2 class="text-xl font-semibold mb-2">Todos</h2>
       <div><input type="checkbox" checked disabled class="mr-2">Flug buchen (Februar)</input></div>
-      <div><input type="checkbox" disabled class="mr-2">Bus Hinweg buchen (ab Mitte Mai)</input></div>
-      <div><input type="checkbox" disabled class="mr-2">Zug Rückweg buchen (ab Mitte April-Mai)</input></div>
+      <div><input type="checkbox" checked disabled class="mr-2">Bus Hinweg buchen (ab Mitte Mai)</input></div>
+      <div><input type="checkbox" checked disabled class="mr-2">Zug Rückweg buchen (ab Mitte April-Mai)</input></div>
       <div><input type="checkbox" disabled class="mr-2">Mal schauen, ob die Wanderschuhe noch leben (Mai)</input></div>
       <div><input type="checkbox" disabled class="mr-2">Hütten reservieren (?)</input></div>
       <div><input type="checkbox" disabled class="mr-2">Packen</input></div>
